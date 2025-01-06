@@ -1,0 +1,1 @@
+select Score, rank over(order by Score desc) as rank from Scores
