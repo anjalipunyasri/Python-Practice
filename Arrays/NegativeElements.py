@@ -1,6 +1,7 @@
 # Given function is to move all the negative elements to one side in the array
 # Input - [-1,0,3,-2,0]
 # Output - [-1,-2,3,0,0]
+
 def NegativeElements(array):
     n = len(array)
     low = 0
